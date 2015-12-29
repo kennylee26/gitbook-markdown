@@ -1,3 +1,34 @@
 {
-    "plugins":["highlight"]
+    "title": "Markdown Tutorial",
+    "language": "zh-cn",
+    "author" : "KennyLee <kennylee26@gmail.com>",
+    "description": "This is a Markdown tutorial book created by gitbook",
+    "extension": null,
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": null
+    },
+    "plugins":[
+        "highlight"
+    ],
+    "pdf": {
+        "pageNumbers": false,
+        "fontSize": 12,
+        "fontFamily": "WenQuanYi Micro Hei Mono",
+        "paperSize": "a4",
+        "margin": {
+            "bottom": 36,
+            "left": 62,
+            "right": 62,
+            "top": 36
+        },
+        "footerTemplate": null,
+        "headerTemplate": null
+    }
 }
