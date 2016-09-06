@@ -4,6 +4,7 @@
     "author" : "KennyLee <kennylee26@gmail.com>",
     "description": "This is a Markdown tutorial book created by gitbook",
     "extension": null,
+    "generator": "site",
     "links": {
         "sharing": {
             "all": null,
@@ -15,8 +16,17 @@
         "sidebar": null
     },
     "plugins":[
-        "highlight"
+        "-search",
+        "todo",
+        "search-pro",
+        "splitter"
     ],
+    "pluginsConfig": {
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord" : ["小需求","基础建设"]
+        }
+    },
     "pdf": {
         "pageNumbers": false,
         "fontSize": 12,
